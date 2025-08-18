@@ -440,15 +440,147 @@ body {
 }
 
 .post-title {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #111827;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .post-date {
     font-size: 0.875rem;
     color: #6b7280;
+}
+
+/* Blog Post Links and Excerpts */
+.post-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+}
+
+.post-link:hover {
+    text-decoration: none;
+}
+
+.post-excerpt {
+    color: #4b5563;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Individual Blog Post Page */
+.blog-post-header {
+    margin-bottom: 2rem;
+}
+
+.back-link {
+    display: inline-block;
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #374151;
+}
+
+.blog-post-content {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.post-intro {
+    font-size: 1.25rem;
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+}
+
+.blog-post-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 2.5rem 0 1.5rem 0;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.75rem;
+}
+
+.blog-post-content h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 2rem 0 1rem 0;
+}
+
+.blog-post-content p {
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.blog-post-content ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.blog-post-content li {
+    color: #374151;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+.blog-post-content strong {
+    color: #111827;
+    font-weight: 600;
+}
+
+.post-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: #f3f4f6;
+    color: #374151;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.post-navigation {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nav-btn {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.nav-btn:hover {
+    background-color: #2563eb;
 }
 
 /* Games */
@@ -820,4 +952,35 @@ body {
         height: 2.5rem;
         font-size: 1rem;
     }
+    
+    /* Blog post responsive adjustments */
+    .blog-post-content {
+        padding: 1.5rem;
+    }
+    
+    .post-title {
+        font-size: 1.5rem;
+    }
+    
+    .post-intro {
+        font-size: 1rem;
+    }
+    
+    .blog-post-content h2 {
+        font-size: 1.25rem;
+    }
+    
+    .blog-post-content h3 {
+        font-size: 1.125rem;
+    }
+    
+    .post-tags {
+        justify-content: center;
+    }
+    
+    /* Blog post image responsive adjustments */
+    /* .blog-post-content img {
+        max-width: 90%;
+        margin: 1.5rem auto;
+    } */
 }

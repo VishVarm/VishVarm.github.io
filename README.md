@@ -19,7 +19,8 @@ personal-website/
 ├── projects/
 │   └── index.html               # Projects showcase
 ├── blog/
-│   └── index.html               # Blog page
+│   ├── index.html               # Blog overview page
+│   └── from-nextjs-to-html.html # Sample blog post
 ├── games/
 │   ├── index.html               # Games overview
 │   ├── memory-match/
