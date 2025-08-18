@@ -5,12 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vishnu Varma - Personal Website</title>
     <meta name="description" content="Welcome to my personal website - About, Projects, Blog, and Games">
-    <link rel="icon" href="resources/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="resources/styles.css">
+            <link rel="icon" href="resources/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="resources/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <meta http-equiv="refresh" content="0; url=about/">
 </head>
 <body>
-    <p>Redirecting to <a href="about/">About page</a>...</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html" class="nav-logo">Vishnu Varma</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">About</a>
+                <a href="projects/" class="nav-link">Projects</a>
+                <a href="blog/" class="nav-link">Blog</a>
+                <a href="games/" class="nav-link">Games</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="profile-section">
+                        <div class="profile-image-container">
+                            <img src="resources/images/profile-picture.jpeg" alt="Vishnu Varma Profile Picture" class="profile-image">
+                        </div>
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="highlight">Vishnu Varma</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Welcome to my personal website!
+                        </p>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="resources/VishnuVarmaResume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="about-section">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">
+                        I'm a software developer with a passion for creating user-friendly applications 
+                        and solving complex problems.
+                    </p>
+                    <p class="about-text">
+                        Over the past summer, I worked at Meta as a software engineer intern. Currently I'm a senior at the Georgia Institute of Technology and am currently searching for new grad opportunities.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact-section">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-text">
+                    I'm always interested in hearing about new opportunities. 
+                    Feel free to reach out if you'd like to collaborate or just want to say hello!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:vishvarm04@gmail.com" class="contact-link">vishvarm04@gmail.com</a>
+                    <a href="https://github.com/VishVarm" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/vishnuvarma0415/" class="contact-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="resources/script.js"></script>
 </body>
 </html>

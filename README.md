@@ -13,9 +13,7 @@ This is a converted version of the original Next.js/TypeScript website to plain 
 
 ```
 personal-website/
-├── index.html                    # Main entry point (redirects to about)
-├── about/
-│   └── index.html               # About/Home page
+├── index.html                    # Main About/Home page
 ├── projects/
 │   └── index.html               # Projects showcase
 ├── blog/
@@ -46,8 +44,7 @@ personal-website/
 
 ## URL Structure
 
-- **Home**: `/` → redirects to `/about/`
-- **About**: `/about/`
+- **Home/About**: `/` (root index.html)
 - **Projects**: `/projects/`
 - **Blog**: `/blog/`
 - **Games**: `/games/`
