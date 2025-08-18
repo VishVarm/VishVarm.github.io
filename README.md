@@ -14,6 +14,8 @@ This is a converted version of the original Next.js/TypeScript website to plain 
 ```
 personal-website/
 ├── index.html                    # Main About/Home page
+├── 404.html                     # Custom 404 page for GitHub Pages
+├── redirect.js                   # GitHub Pages routing helper
 ├── projects/
 │   └── index.html               # Projects showcase
 ├── blog/
@@ -82,10 +84,22 @@ personal-website/
 
 ## Deployment
 
-1. **GitHub Pages**: Push to a repository and enable GitHub Pages
-2. **Netlify**: Drag and drop the folder to Netlify
-3. **Vercel**: Upload the folder to Vercel
-4. **Traditional Hosting**: Upload via FTP to any web server
+### GitHub Pages (Recommended)
+1. **Push to Repository**: Upload all files to a GitHub repository
+2. **Enable GitHub Pages**: Go to repository Settings → Pages → Source → Deploy from a branch
+3. **Choose Branch**: Select `main` or `master` branch and `/ (root)` folder
+4. **Custom Domain** (Optional): Add your custom domain in the Pages settings
+
+**GitHub Pages Features:**
+- **Clean URLs**: Automatically removes `.html` extensions
+- **Custom 404**: Uses `404.html` for better error handling
+- **Redirect Script**: `redirect.js` ensures proper navigation
+- **Automatic HTTPS**: Free SSL certificates
+
+### Other Hosting Options
+- **Netlify**: Drag and drop the folder to Netlify
+- **Vercel**: Upload the folder to Vercel
+- **Traditional Hosting**: Upload via FTP to any web server
 
 ## Maintenance
 
