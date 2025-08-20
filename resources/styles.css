@@ -439,6 +439,14 @@ body {
     background-color: #f9fafb;
 }
 
+/* Blog Post Separator */
+.blog-separator {
+    border: none;
+    height: 1px;
+    background-color: #e5e7eb;
+    margin: 0;
+}
+
 .post-title {
     font-size: 1.25rem;
     font-weight: 600;
