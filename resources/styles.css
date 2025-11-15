@@ -502,6 +502,9 @@ body {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     padding: 2.5rem;
     margin-bottom: 2rem;
+    max-width: 66.67%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .post-intro {
